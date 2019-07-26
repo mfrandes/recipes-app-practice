@@ -6,7 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./recipes-item.component.css']
 })
 export class RecipesItemComponent implements OnInit {
-@Input() recipe
+@Input() recipe;
+@Input() indexe;
   constructor() { }
 
   ngOnInit() {
